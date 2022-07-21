@@ -153,12 +153,6 @@
     <Compile Include="Regis_pg.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Walkin_pg.Designer.vb">
-      <DependentUpon>Walkin_pg.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Walkin_pg.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Appointment_pg.resx">
@@ -190,9 +184,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Regis_pg.resx">
       <DependentUpon>Regis_pg.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Walkin_pg.resx">
-      <DependentUpon>Walkin_pg.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

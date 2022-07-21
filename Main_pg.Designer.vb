@@ -240,7 +240,7 @@ Partial Class Main_pg
         '
         Me.Button2.BackColor = System.Drawing.Color.LightSteelBlue
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(802, 418)
+        Me.Button2.Location = New System.Drawing.Point(803, 403)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(153, 72)
         Me.Button2.TabIndex = 25
@@ -251,7 +251,7 @@ Partial Class Main_pg
         '
         Me.Button1.BackColor = System.Drawing.Color.Lavender
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(594, 418)
+        Me.Button1.Location = New System.Drawing.Point(600, 403)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(153, 72)
         Me.Button1.TabIndex = 24

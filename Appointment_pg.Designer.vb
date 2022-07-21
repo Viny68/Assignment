@@ -24,7 +24,7 @@ Partial Class Appointment_pg
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Appointment_pg))
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.apptreset_btn = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -69,16 +69,16 @@ Partial Class Appointment_pg
         Me.Button3.Text = "Submit"
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'Button4
+        'apptreset_btn
         '
-        Me.Button4.BackColor = System.Drawing.Color.Gainsboro
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(854, 271)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(132, 51)
-        Me.Button4.TabIndex = 137
-        Me.Button4.Text = "Reset"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.apptreset_btn.BackColor = System.Drawing.Color.Gainsboro
+        Me.apptreset_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.apptreset_btn.Location = New System.Drawing.Point(854, 271)
+        Me.apptreset_btn.Name = "apptreset_btn"
+        Me.apptreset_btn.Size = New System.Drawing.Size(132, 51)
+        Me.apptreset_btn.TabIndex = 137
+        Me.apptreset_btn.Text = "Reset"
+        Me.apptreset_btn.UseVisualStyleBackColor = False
         '
         'Button5
         '
@@ -391,7 +391,7 @@ Partial Class Appointment_pg
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(1022, 694)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.apptreset_btn)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label2)
@@ -431,7 +431,7 @@ Partial Class Appointment_pg
     End Sub
 
     Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents apptreset_btn As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Label14 As Label
     Friend WithEvents Label2 As Label

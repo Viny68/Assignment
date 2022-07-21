@@ -14,4 +14,8 @@
     Private Sub Appointment_pg_Closed(sender As Object, e As EventArgs) Handles Me.Closed
         Application.Exit()
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles apptreset_btn.Click
+
+    End Sub
 End Class
